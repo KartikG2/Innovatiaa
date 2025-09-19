@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './Judges.css';
-import Judge1 from '../../assets/EC-HOD.png';
+import Judge1 from '../../assets/malashri.png';
 import Judge2 from '../../assets/empty.png';
 import Judge3 from '../../assets/empty.png';
 
