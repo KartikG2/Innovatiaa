@@ -1,0 +1,40 @@
+/* This can be very similar to Speakers.css */
+.Student_CoOrdinators-section {
+  background-color: var(--color-bg); /* Or alternate color */
+}
+
+.Student_CoOrdinators-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.Student_CoOrdinator-card {
+  background: var(--color-dark-grey);
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  /* The transition is not strictly necessary since Framer Motion handles
+    the animations, but it can be kept as a fallback.
+  */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.Student_CoOrdinator-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.Student_CoOrdinator-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.Student_CoOrdinator-card p {
+  color: #bbb;
+  font-size: 0.9rem;
+}

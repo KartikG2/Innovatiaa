@@ -1,0 +1,40 @@
+/* This can be very similar to Speakers.css */
+.CoOrdinators-section {
+  background-color: var(--color-bg); /* Or alternate color */
+}
+
+.CoOrdinators-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.CoOrdinator-card {
+  background: var(--color-dark-grey);
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.CoOrdinator-card:hover {
+    box-shadow: 0 5px 25px rgba(153, 51, 255, 0.3);
+}
+
+.CoOrdinator-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.CoOrdinator-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.CoOrdinator-card p {
+  color: #bbb;
+  font-size: 0.9rem;
+}

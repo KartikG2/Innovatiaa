@@ -1,0 +1,232 @@
+/* src/components/Hero/Hero.css */
+
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding: 6rem 5% 2rem;
+}
+
+.hero-content {
+  z-index: 2;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Container for SMCE Logo and Text */
+.presenter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: -1rem;
+}
+
+.smce-logo {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(153, 51, 255, 0.3);
+}
+
+.presenter-text {
+  font-size: 1rem;
+  color: var(--color-accent);
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+/* Main Hero Title */
+.hero-content h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  background: linear-gradient(90deg, #ff63da, #9933ff, #00bfff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.hero-tagline {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+  color: #c0c0c0;
+  max-width: 650px;
+}
+
+/* Event Details (Date, Location, Prizes) */
+.event-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem 2.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #a0a0a0;
+  font-weight: 300;
+}
+
+.event-details span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.event-details span svg {
+  color: var(--color-accent);
+  font-size: 1.2rem;
+}
+
+/* CTA Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.cta-button {
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid transparent;
+}
+
+.cta-button.primary {
+  color: var(--color-text);
+  background: var(--gradient-primary);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.cta-button.secondary {
+  color: var(--color-primary);
+  background: transparent;
+  border-color: var(--color-primary);
+}
+
+.cta-button.primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(153, 51, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.cta-button.secondary:hover {
+  background: rgba(153, 51, 255, 0.2);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(153, 51, 255, 0.3);
+}
+
+/* Animated Stats */
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  width: 100%;
+  animation: float-animation 6s ease-in-out infinite;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-item span {
+  font-size: 3rem;
+  font-weight: 500; /* Adjusted for consistency */
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+}
+
+.stat-item p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-top: 0.5rem;
+  font-weight: 300;
+}
+
+/* Animations */
+@keyframes float-animation {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animated-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.animated-bg::before,
+.animated-bg::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.2;
+}
+.animated-bg::before {
+  width: 400px;
+  height: 400px;
+  background: var(--color-primary);
+  top: 10%;
+  left: 10%;
+  animation: shape-one-animation 20s infinite alternate ease-in-out;
+}
+.animated-bg::after {
+  width: 300px;
+  height: 300px;
+  background: var(--color-secondary);
+  bottom: 10%;
+  right: 10%;
+  animation: shape-two-animation 18s infinite alternate ease-in-out;
+}
+
+@keyframes shape-one-animation {
+  from { transform: translate(0, 0) scale(1); }
+  to { transform: translate(100px, 50px) scale(1.2); }
+}
+
+@keyframes shape-two-animation {
+  from { transform: translate(0, 0) rotate(0deg) scale(1.1); }
+  to { transform: translate(-80px, 40px) rotate(180deg) scale(1); }
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+  .smce-logo {
+    width: 80px;
+  }
+  .hero-content h1 {
+    font-size: 3.5rem;
+  }
+  .hero-tagline {
+    font-size: 1.1rem;
+  }
+  .stat-item span {
+    font-size: 2.5rem;
+  }
+}

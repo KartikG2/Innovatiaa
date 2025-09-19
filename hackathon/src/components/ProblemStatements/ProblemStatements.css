@@ -1,0 +1,53 @@
+.problems-section {
+  background-color: var(--color-bg);
+}
+
+.problems-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.problem-card {
+  background: var(--color-dark-grey);
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  border: 1px solid #222;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  color: var(--color-secondary);
+}
+
+.card-tag {
+  background: rgba(0, 191, 255, 0.1);
+  color: var(--color-secondary);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.problem-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.problem-card p {
+  color: #bbb;
+  font-weight: 300;
+  flex-grow: 1; /* Ensures cards in the same row have the same height */
+}
