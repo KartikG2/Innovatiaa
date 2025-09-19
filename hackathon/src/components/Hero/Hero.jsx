@@ -43,7 +43,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.7 }}
         >
-          <span><FaCalendarAlt /> Sept 25 2025</span>
+          <span><FaCalendarAlt /> Sept 24 2025</span>
           <span><FaMapMarkerAlt /> College Campus</span>
           <span><FaTrophy /> Amazing ShoutOuts</span>
         </motion.div>
