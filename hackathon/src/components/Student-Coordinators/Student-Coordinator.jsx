@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './Student-Coordinator.css';
 import CoOrdinator1 from '../../assets/akshay.jpg';
-import CoOrdinator2 from '../../assets/ajith.jpg';
+import CoOrdinator2 from '../../assets/ajith1.jpg';
 import CoOrdinator3 from '../../assets/profile-pic.png';
 import CoOrdinator4 from '../../assets/hemanth.jpg';
 import CoOrdinator5 from '../../assets/VIVEK.jpg';

@@ -61,6 +61,16 @@
   color: #c0c0c0;
   max-width: 650px;
 }
+.hero-main-tagline{
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+  background: linear-gradient(90deg, #ff63da, #9933ff, #00bfff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 650px;
+}
 .hero-tagline-p {
   font-size: 3rem;
   margin-bottom: 10px;

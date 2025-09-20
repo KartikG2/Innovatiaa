@@ -46,6 +46,14 @@ const Hero = () => {
         >
           In association with Department of CSE & ISE 
         </motion.p>
+        <motion.p
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          className="hero-tagline"
+        >
+         Under the club's BYTE and VIBRANCES 
+        </motion.p>
         </div>
 
         
@@ -53,7 +61,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="hero-tagline"
+          className="hero-main-tagline"
         >
           Where Innovation Meets Creativity - The Ultimate College Hackathon Experience
         </motion.p>

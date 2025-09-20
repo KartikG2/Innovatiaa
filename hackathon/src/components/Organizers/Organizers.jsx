@@ -1,14 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './Organizers.css';
-import organizer1 from '../../assets/empty.png';
+import organizer1 from '../../assets/csehod.png';
 import organizer2 from '../../assets/empty.png';
 
 const organizersData = [
   { name: 'Dr Renukaradhya P C ', role: 'Professor & HOD - CSE', img: organizer1 },
   { name: 'Prof. Rakesh D S', role: 'HOD - ISE', img: organizer2 },
-  // { name: 'Ben Carter', role: 'Marketing Lead', img: organizer1 },
-  // { name: 'Chloe Davis', role: 'Logistics Coordinator', img: organizer1 },
 ];
 
 // Re-usable animation variants
