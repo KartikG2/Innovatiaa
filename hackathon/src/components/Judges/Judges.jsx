@@ -6,9 +6,10 @@ import Judge2 from '../../assets/empty.png';
 import Judge3 from '../../assets/empty.png';
 
 const JudgesData = [
-  { name: 'Malashree G', role: 'HOD - ECE', img: Judge1 },
-  { name: 'Priya Singh', role: 'HOD - EEE', img: Judge2 },
-  { name: 'Chandrakanth', role: 'HOD -  ME', img: Judge3 },
+
+  { name: 'Dr.Narayanappa', role: 'Professor and HOD, EEE Dept', img: Judge2 },
+  { name: 'Dr.Chandrakumar', role: 'Professor and HOD, ME Dept', img: Judge3 },
+    { name: 'Prof.Malashree.G', role: 'Professor and HOD, ECE Dept', img: Judge1 }
 ];
 
 // Re-usable animation variants

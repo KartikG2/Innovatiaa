@@ -1,24 +1,28 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './Student-Coordinator.css';
-import CoOrdinator1 from '../../assets/empty.png';
-import CoOrdinator2 from '../../assets/empty.png';
+import CoOrdinator1 from '../../assets/akshay.jpg';
+import CoOrdinator2 from '../../assets/ajith.jpg';
 import CoOrdinator3 from '../../assets/profile-pic.png';
-import CoOrdinator4 from '../../assets/empty.png';
-import CoOrdinator5 from '../../assets/empty.png';
-import CoOrdinator6 from '../../assets/karthikG.jpg';
-import CoOrdinator7 from '../../assets/empty.png';
-import CoOrdinator8 from '../../assets/empty.png';
+import CoOrdinator4 from '../../assets/hemanth.jpg';
+import CoOrdinator5 from '../../assets/VIVEK.jpg';
+import CoOrdinator6 from '../../assets/karthikG1.jpg';
+import CoOrdinator7 from '../../assets/vishal.jpg';
+import CoOrdinator8 from '../../assets/laxmi1.jpg';
+import CoOrdinator9 from '../../assets/sinchana.jpg';
+import CoOrdinator10 from '../../assets/shravani.jpg';
 
 const Student_CoOrdinatorsData = [
-{ name: 'Akashay', role: 'Final year Student', img: CoOrdinator1 },
-{ name: 'Ajith', role: 'Final year Student', img: CoOrdinator2 },
-{ name: 'Kartik I G', role: 'Final year Student', img: CoOrdinator3 },
-{ name: 'Hemanth C S', role: 'Final year Student', img: CoOrdinator4 },
-{ name: 'Vivek', role: 'Final year Student', img: CoOrdinator5 },
-{ name: 'Karthik G', role: 'Final year Student', img: CoOrdinator6 },
-{ name: 'Gagan', role: 'Final year Student', img: CoOrdinator7 },
-{ name: 'Laxmi', role: 'Third year Student', img: CoOrdinator8 },
+{ name: 'Mr.Akashay', role: '7th Sem, CSE', img: CoOrdinator1 },
+{ name: 'Mr.Ajith', role: '7th Sem, CSE', img: CoOrdinator2 },
+{ name: 'Mr.Kartik I G', role: '7th Sem, CSE', img: CoOrdinator3 },
+{ name: 'Mr.Hemanth R', role: '7th Sem, CSE', img: CoOrdinator4 },
+{ name: 'Mr.Vivek', role: '7th Sem, CSE', img: CoOrdinator5 },
+{ name: 'Mr.Karthik G', role: '7th Sem, CSE', img: CoOrdinator6 },
+{ name: 'Mr.Vishal', role: '7th Sem, CSE', img: CoOrdinator7 },
+{ name: 'Mrs.Laxmi', role: '5th Sem, CSE', img: CoOrdinator8 },
+{ name: 'Mrs.Sinchana', role: '5th Sem, CSE', img: CoOrdinator9 },
+{ name: 'Mrs.Shravani', role: '5th Sem, CSE', img: CoOrdinator10 },
 ];
 
 const containerVariants = {

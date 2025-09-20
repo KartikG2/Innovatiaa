@@ -2,13 +2,13 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './Patrons.css';
 import Patron1 from '../../assets/chairman.png';
-import Patron2 from '../../assets/empty.png';
+import Patron2 from '../../assets/princi1.jpg';
 import Patron3 from '../../assets/empty.png';
 
 const PatronsData = [
-  { name: 'Shri D.C. Venugopal', title: "Hon'ble Chairman, Dr.SMCE", img: Patron1 },
+  { name: 'Sri D.C. Venugopal', title: "Hon'ble Chairman, Dr.SMCE", img: Patron1 },
   { name: 'Dr.K.S.Jagadeesh Gowda', title: 'Principal, Dr.SMCE', img: Patron2 },
-  { name: 'Mr Rahul', title: 'CEO, Dr.SMCE', img: Patron3 }
+  { name: 'Sri Rahul', title: 'CEO, Dr.SMCE', img: Patron3 }
 ];
 
 // Animation variants for container and items

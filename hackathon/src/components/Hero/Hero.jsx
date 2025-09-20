@@ -21,13 +21,34 @@ const Hero = () => {
           />
           <p className="presenter-text">Dr. SMCE presents</p>
         </motion.div>
-        <motion.h1
+        <div>
+          <motion.h1
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
           INNOVATIAA
+          
         </motion.h1>
+         <motion.p
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          className="hero-tagline-p"
+        >
+          Hackathon-1.0
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          className="hero-tagline"
+        >
+          In association with CSE & ISE Departments
+        </motion.p>
+        </div>
+
+        
         <motion.p
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}

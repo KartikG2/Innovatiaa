@@ -61,6 +61,13 @@
   color: #c0c0c0;
   max-width: 650px;
 }
+.hero-tagline-p {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+  color: #c0c0c0;
+  max-width: 650px;
+}
 
 /* Event Details (Date, Location, Prizes) */
 .event-details {

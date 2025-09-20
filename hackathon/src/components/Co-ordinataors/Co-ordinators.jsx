@@ -5,8 +5,8 @@ import CoOrdinator1 from '../../assets/Shashank.jpg';
 import CoOrdinator2 from '../../assets/Rohan sir.jpg';
 
 const CoOrdiantorsData = [
-  { name: 'Shashank', role: 'Assistant Professor', img: CoOrdinator1 },
-  { name: 'Rohan S', role: 'Assistant Professor', img: CoOrdinator2 }
+  { name: 'Mr.Shashanka H P', role: 'Assistant Professor', img: CoOrdinator1 },
+  { name: 'Mr.Rohan S', role: 'Programmer', img: CoOrdinator2 }
 ];
 
 // Re-usable animation variants
