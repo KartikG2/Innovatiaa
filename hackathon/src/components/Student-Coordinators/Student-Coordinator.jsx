@@ -22,9 +22,9 @@ const Student_CoOrdinatorsData = [
 { name: 'Mr.Karthik G', role: '7th Sem, CSE', img: CoOrdinator6 },
 { name: 'Mr.Vishal', role: '7th Sem, CSE', img: CoOrdinator7 },
 { name: 'Mr.Abhishek A D', role: '7th Sem, CSE', img: CoOrdinator11 },
-{ name: 'Mrs.Laxmi', role: '5th Sem, CSE', img: CoOrdinator8 },
-{ name: 'Mrs.Sinchana', role: '5th Sem, CSE', img: CoOrdinator9 },
-{ name: 'Mrs.Shravani', role: '5th Sem, CSE', img: CoOrdinator10 },
+{ name: 'Ms.Laxmi', role: '5th Sem, CSE', img: CoOrdinator8 },
+{ name: 'Ms.Sinchana', role: '5th Sem, CSE', img: CoOrdinator9 },
+{ name: 'Ms.Shravani', role: '5th Sem, CSE', img: CoOrdinator10 },
 ];
 
 const containerVariants = {

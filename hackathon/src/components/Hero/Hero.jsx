@@ -44,7 +44,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="hero-tagline"
         >
-          In association with CSE & ISE Departments
+          In association with Department of CSE & ISE 
         </motion.p>
         </div>
 
