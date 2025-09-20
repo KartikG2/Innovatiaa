@@ -8,9 +8,9 @@ const timelineData = [
   { date: 'Sept 24, 2026 9.30 AM', title: 'Kickoff & Opening Ceremony', desc: 'Welcome note + Seat allocation' },
   { date: '11 AM', title: 'Coding Begins', desc: 'Teams start working on their projects.' },
   { date: '1 PM', title: 'Mentorship Rounds', desc: 'Mentors interact with teams and provide guidance.' },
-  { date: '3.30 PM', title: 'Final Submission', desc: 'Teams must submit their project repositories & pitch decks.' },
-  { date: '4 PM', title: 'Demos & Judging', desc: 'Teams present their solutions to judges.' },
-  { date: '4.30 PM', title: 'Closing Ceremony & Results', desc: 'Winners announced, closing remarks.' },
+  { date: '2.30 PM', title: 'Final Submission', desc: 'Teams must submit their project repositories & pitch decks.' },
+  { date: '2.30 - 3.50 PM', title: 'Presentation & Judging', desc: 'Teams present their solutions to judges.' },
+  { date: '4 PM', title: 'Closing Ceremony & Results', desc: 'Winners announced, closing remarks.' },
 ];
 
 const Timeline = () => {
