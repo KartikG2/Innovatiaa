@@ -11,6 +11,7 @@ import CoOrdinator7 from '../../assets/vishal.jpg';
 import CoOrdinator8 from '../../assets/laxmi1.jpg';
 import CoOrdinator9 from '../../assets/sinchana.jpg';
 import CoOrdinator10 from '../../assets/shravani.jpg';
+import CoOrdinator11 from '../../assets/abhishek.jpg';
 
 const Student_CoOrdinatorsData = [
 { name: 'Mr.Akashay', role: '7th Sem, CSE', img: CoOrdinator1 },
@@ -20,6 +21,7 @@ const Student_CoOrdinatorsData = [
 { name: 'Mr.Vivek', role: '7th Sem, CSE', img: CoOrdinator5 },
 { name: 'Mr.Karthik G', role: '7th Sem, CSE', img: CoOrdinator6 },
 { name: 'Mr.Vishal', role: '7th Sem, CSE', img: CoOrdinator7 },
+{ name: 'Mr.Abhishek A D', role: '7th Sem, CSE', img: CoOrdinator11 },
 { name: 'Mrs.Laxmi', role: '5th Sem, CSE', img: CoOrdinator8 },
 { name: 'Mrs.Sinchana', role: '5th Sem, CSE', img: CoOrdinator9 },
 { name: 'Mrs.Shravani', role: '5th Sem, CSE', img: CoOrdinator10 },
