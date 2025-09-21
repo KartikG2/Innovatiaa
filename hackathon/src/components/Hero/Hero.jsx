@@ -44,7 +44,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="hero-tagline"
         >
-          In association with Department of CSE & ISE 
+          Organized by the Department of CSE & ISE
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 50 }}
@@ -52,7 +52,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="hero-tagline"
         >
-         Under the club's BYTE and VIBRANCES 
+         In association with the clubs BYTE and VIBRANCES 
         </motion.p>
         </div>
 
