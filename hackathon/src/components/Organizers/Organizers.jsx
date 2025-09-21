@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './Organizers.css';
 import organizer1 from '../../assets/csehod.png';
-import organizer2 from '../../assets/empty.png';
+import organizer2 from '../../assets/isehod.jpg';
 
 const organizersData = [
   { name: 'Dr Renukaradhya P C ', role: 'Professor & HOD - CSE', img: organizer1 },
