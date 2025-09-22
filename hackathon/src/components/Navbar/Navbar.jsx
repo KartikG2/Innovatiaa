@@ -33,6 +33,7 @@ const Navbar = () => {
     { to: 'timeline', label: 'Timeline' },
     { to: 'Patrons', label: 'Chief-Patrons' },
     { to: 'faq', label: 'FAQ' },
+    { to: 'Footer', label: 'Contact' },
   ];
 
   return (

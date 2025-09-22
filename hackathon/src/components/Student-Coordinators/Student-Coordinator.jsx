@@ -12,19 +12,29 @@ import CoOrdinator8 from '../../assets/laxmi1.jpg';
 import CoOrdinator9 from '../../assets/sinchana.jpg';
 import CoOrdinator10 from '../../assets/shravani.jpg';
 import CoOrdinator11 from '../../assets/abhishek.jpg';
+import CoOrdinator12 from '../../assets/rohan.jpg';
+import CoOrdinator13 from '../../assets/ashitha.jpg';
+import CoOrdinator14 from '../../assets/harshitha.jpg';
+import CoOrdinator15 from '../../assets/manasa.jpg';
+
 
 const Student_CoOrdinatorsData = [
-{ name: 'Mr.Akashay', role: '(Core Committee)', img: CoOrdinator1 },
+{ name: 'Mr.Akshay', role: '(Core Committee)', img: CoOrdinator1 },
 { name: 'Mr.Ajith', role: '(Core Committee)', img: CoOrdinator2 },
 { name: 'Mr.Kartik I G', role: '(Technical Committee)', img: CoOrdinator3 },
 { name: 'Mr.Vishal', role: '(Technical Committee)', img: CoOrdinator7 },
 { name: 'Mr.Vivek', role: '(Logistics and Venue Committee)', img: CoOrdinator5 },
 { name: 'Mr.Karthik G', role: '(Logistics and Venue Committee)', img: CoOrdinator6 },
+{ name: 'Ms.Ashitha T', role: '(Anchoring committee)', img: CoOrdinator13 },
+{ name: 'Ms.Harshitha', role: '(Anchoring committee)', img: CoOrdinator14 },
 { name: 'Mr.Hemanth R', role: '( Publicity and Outreach Committee)', img: CoOrdinator4 },
 { name: 'Ms.Laxmi', role: '(Publicity and Outreach Committee)', img: CoOrdinator8 },
 { name: 'Ms.Sinchana', role: '(Hospitality and Engagement Committee)', img: CoOrdinator9 },
 { name: 'Ms.Shravani', role: '(Hospitality and Engagement Committee)', img: CoOrdinator10 },
 { name: 'Mr.Abhishek A D', role: '(Registeration and Communication Committee)', img: CoOrdinator11 },
+{ name: 'Mr.Rohan B', role: '(Registeration and Communication Committee)', img: CoOrdinator12 },
+{ name: 'Ms.Manasa', role: '(Design Committee)', img: CoOrdinator15 },
+
 ];
 
 const containerVariants = {

@@ -52,7 +52,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="hero-tagline"
         >
-         In association with the clubs BYTE and VIBRANCES 
+         In association with the clubs BYTE and VIBRANCE 
         </motion.p>
         </div>
 
