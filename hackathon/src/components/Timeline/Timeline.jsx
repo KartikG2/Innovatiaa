@@ -4,7 +4,7 @@ import './Timeline.css';
 
 const timelineData = [
   { date: 'Sept 22, 2025', title: 'Registration Opens', desc: 'Teams can register and submit their basic details.' },
-  { date: 'Sept 23,10 PM, 2025', title: 'Registration Closes', desc: 'No new entries after this date.' },
+  { date: 'Sept 23, 2025 10.00 PM', title: 'Registration Closes', desc: 'No new entries after this date.' },
   { date: 'Sept 24, 2025 9.30 AM', title: 'Kickoff & Opening Ceremony', desc: 'Welcome note + Seat allocation' },
   { date: '11 AM', title: 'Coding Begins', desc: 'Teams start working on their projects.' },
   { date: '1 PM', title: 'Mentorship Rounds', desc: 'Mentors interact with teams and provide guidance.' },
