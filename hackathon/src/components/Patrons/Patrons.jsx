@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import './Patrons.css';
 import Patron1 from '../../assets/chairman.png';
 import Patron2 from '../../assets/princi1.jpg';
-import Patron3 from '../../assets/empty.png';
+import Patron3 from '../../assets/rahul.jpg';
 
 const PatronsData = [
   { name: 'Sri D.C. Venugopal', title: "Hon'ble Chairman, Dr.SMCE", img: Patron1 },
